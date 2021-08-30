@@ -1,8 +1,8 @@
 <template>
   <div>
     <div
-      v-for="it in dataList"
-      :key="it.index"
+      v-for="(it, index) in dataList"
+      :key="index"
       class="message"
     >
       <div class="mb-4">
